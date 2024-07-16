@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root{
+    --cor-primaria: #F3F5FC;
+    --cor-secundaria: #FFFFFF;
+    --cor-terciaria: #0A3871;
+    --cor-quaternaria: #D8DFE8;
+    --cor-quintenaria: #495057;
+
+    --fonte-principal: "Inter", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--cor-primaria);
+    height: 100vh;
+}
+
+.cabecalho{
+    padding: 24px;
+    width: 68%;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.conteudo__esquerda{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo__esquerda__insercao{
+    background-color: var(--cor-primaria);
+    border: none;
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 2rem;
+    color: var(--cor-terciaria);
+    position: absolute;
+    top: 16.5%;
+    bottom: 20%;
+    left: 8%;
+    right: 36%;
+
+}
+
+.conteudo__esquerda__insercao:focus{
+    outline: none;
+}
+
+.conteudo__esquerda__inferior{
+    display: flex;
+    flex-direction: column;  
+    gap: 16px;  
+}
+
+.conteudo__esquerda__inferior__texto{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    position: absolute;
+    top: 83%;
+    bottom: 15%;
+    right: 65.8%;
+    left: 16.5%;
+}
+
+.conteudo__esquerda__inferior__texto p{
+    font-family: var(--fonte-principal) ;
+    font-weight: 400;
+    font-size: 0.75rem;
+}
+
+.conteudo__esquerda__inferior__botoes{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    position: absolute;
+    top: 86%;
+    bottom: 7%;
+    left: 16%;
+    right: 35%;
+}
+
+.conteudo__esquerda__inferior__botoes__cod{
+    background-color: var(--cor-terciaria) ;
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+    color: var(--cor-secundaria);
+}
+
+.conteudo__esquerda__inferior__botoes__decod{
+    background-color: var(--cor-quaternaria) ;
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    border: 1px solid var(--cor-terciaria);
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+    color: var(--cor-terciaria);
+}
+
+.conteudo__direita {
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+    background-color: var(--cor-secundaria);
+    border-radius: 32px;
+    height: 95%;
+    width: 27%;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    position: absolute; 
+    top: 3%; 
+    bottom: 3%; 
+    right: 3%; 
+    left: 70%; 
+    
+}
+
+
+.conteudo__direita__texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px ;
+    padding: 4%;
+    width: 50%;
+    height: 30%;
+    
+}
+
+
+.conteudo__direita__texto h1{
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    font-size: 1.5rem ;
+    text-align: center;
+}
+
+.conteudo__direita__texto p{
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.conteudo__direita__click {
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+    font-family: var(--fonte-principal);
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2.25rem;
+    color: var(--cor-quintenaria);
+    background-color: var(--cor-secundaria);
+    border-radius: 32px;
+    padding: 3%;
+    height: 95%;
+    width: 28%;
+    box-sizing: border-box;
+    align-items: center;
+    position: absolute; 
+    top: 3%; 
+    bottom: 3%; 
+    right: 3%; 
+    left: 70%; 
+    overflow-y: auto;
+}
+
+.conteudo__direita__click__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+    width: 100%; 
+    height: 100%; 
+    overflow-y: auto; 
+    align-items: center;
+}
+
+.conteudo__direita__click__texto {
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-align: center;
+    color: var(--cor-terciaria);
+    padding: 20px; 
+    width: 90%; 
+    max-width: 100%; 
+    overflow-wrap: break-word; 
+    word-wrap: break-word; 
+}
+
+.conteudo__direita__click__botao {
+    background-color: var(--cor-secundaria) ;
+    width: 100%;
+    height: 14%;
+    margin-top: auto; 
+    border-radius: 24px;
+    border: 1px solid var(--cor-terciaria);
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+    color: var(--cor-terciaria);
+}
+
