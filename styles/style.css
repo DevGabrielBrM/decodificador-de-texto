@@ -67,6 +67,7 @@ body{
 .conteudo__esquerda__inferior__texto{
     display: flex;
     flex-direction: row;
+    width: 30%;
     gap: 8px;
     position: absolute;
     top: 83%;
