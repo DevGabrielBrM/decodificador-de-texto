@@ -281,7 +281,8 @@ body{
         align-items: center;
         justify-content: center;
         width: 90%;
-        margin: 0 auto; 
+        margin-left: 5%;
+        margin-right: 0; 
         padding: 16px;
         box-sizing: border-box;
         position: relative; 
@@ -313,7 +314,7 @@ body{
         display: flex;
         flex-direction: column;
         gap: 16px;
-        width: 100%;
+        width: 90%;
         align-items: center;
         justify-content: center;
         margin-top: 16px; 
@@ -344,6 +345,7 @@ body{
         display: flex;
         flex-direction: row;
         gap: 16px; 
+        margin-right: 30%;
         justify-content: center;
         width: auto;
         border: 3px solid black;
