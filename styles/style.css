@@ -242,7 +242,7 @@ body{
     color: var(--cor-secundaria);
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px){
     body {
         background-color: var(--cor-primaria);
         margin: 0;
@@ -348,7 +348,6 @@ body{
         margin-right: 30%;
         justify-content: center;
         width: auto;
-        border: 3px solid black;
         margin-top: 16px; 
         position: relative;
         
