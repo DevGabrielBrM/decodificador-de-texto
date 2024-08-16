@@ -346,6 +346,7 @@ body{
         flex-direction: row;
         gap: 16px; 
         margin-right: 30%;
+        padding: 15px;
         justify-content: center;
         width: auto;
         margin-top: 16px; 
