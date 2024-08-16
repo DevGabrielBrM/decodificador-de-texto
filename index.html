@@ -11,19 +11,7 @@
     <header class="cabecalho">
         <img src="./assets/Frame 6.png" alt="alura-icone">
     </header>
-    <section class="conteudo">
-        <main class="conteudo__esquerda">
-            <textarea class="conteudo__esquerda__insercao" id="mensagem" name="mensagem" rows="20" cols="50" onclick="limparInput()">Digite seu texto aqui</textarea>
-            <section class="conteudo__esquerda__inferior">
-                <div class="conteudo__esquerda__inferior__texto">
-                    <img class="conteudo__esquerda__inferior__img" src="./assets/bi_exclamation-circle-fill.png" alt="exclamacao"><p>Apenas letras minúsculas e sem acento.</p>
-                </div>
-                <div class="conteudo__esquerda__inferior__botoes">  
-                    <button class="conteudo__esquerda__inferior__botoes__cod" onclick="pegarTexto_criptografar()">Criptografar</button>
-                    <button class="conteudo__esquerda__inferior__botoes__decod" onclick="pegarTexto_descriptografar()">Descriptografar</button>
-                </div>
-             </section>
-            </main>
+    <div class="responsividade">
         <aside class="conteudo__direita">
             <img class="conteudo__direita__img" src="./assets/High quality products 1 1.jpg" alt="img-resposta">
             <div class="conteudo__direita__texto">
@@ -31,7 +19,20 @@
                 <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
             </div>
         </aside>
-    </section>
+        <main class="conteudo__esquerda">
+            <textarea class="conteudo__esquerda__insercao" id="mensagem" name="mensagem" rows="20" cols="50" onclick="limparInput()" required>Digite seu texto aqui</textarea>
+            <section class="conteudo__esquerda__inferior">
+                <div class="conteudo__esquerda__inferior__texto">
+                    <img class="conteudo__esquerda__inferior__img" src="./assets/bi_exclamation-circle-fill.png" alt="exclamacao">
+                    <p>Apenas letras minúsculas e sem acento.</p>
+                </div>
+                <div class="conteudo__esquerda__inferior__botoes">  
+                    <button class="conteudo__esquerda__inferior__botoes__cod" onclick="pegarTexto_criptografar()">Criptografar</button>
+                    <button class="conteudo__esquerda__inferior__botoes__decod" onclick="pegarTexto_descriptografar()">Descriptografar</button>
+                </div>
+            </section>
+        </main>
+    </div>
     <footer></footer>
 </body>
 </html>
