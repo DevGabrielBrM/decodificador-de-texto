@@ -242,7 +242,7 @@ body{
     color: var(--cor-secundaria);
 }
 
-@media screen and (max-width: 768px){
+@media(max-width: 768px){
     body {
         background-color: var(--cor-primaria);
         margin: 0;
